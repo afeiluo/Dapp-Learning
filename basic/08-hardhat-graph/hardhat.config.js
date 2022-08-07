@@ -18,7 +18,7 @@ function mnemonic() {
 // You need to export an object to set up your config
 // Go to https://hardhat.org/config/ to learn more
 module.exports = {
-  defaultNetwork,
+  //defaultNetwork,
   solidity: '0.8.0',
   networks: {
     localhost: {

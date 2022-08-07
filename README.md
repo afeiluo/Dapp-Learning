@@ -1,25 +1,35 @@
-[中文](https://github.com/Dapp-Learning-DAO/Dapp-Learning/blob/main/README-CN.md) / English  
 <div align="center">
   <img src="./DappLearning-logo.svg" style="margin: 0 auto 40px;" width="380" />
   <!-- <h1>Dapp Learning</h1> -->
   <h4 align="center">
     Definitive Guide for Decentralized-app(Dapp) Development on Blockchain
   </h4>
-  <p>Step-by-step Dapp practice through actual projects.</p>
+  <p>Step-by-step Dapp practice through classical projects.</p>
+  <br />
+  <p>
+    <a href="https://twitter.com/Dapp_Learning"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/dapp_learning?style=social"></a>
+    <a href="https://www.youtube.com/c/DappLearning"><img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UCdJKZVxO55N3n2BQYXMDAcQ?style=social"></a>
+    <a href="https://discord.gg/cRYNYXqPeR"><img src="https://img.shields.io/discord/907080577096757279?color=5865F2&logo=discord&logoColor=white" alt="Discord server" /></a>
+    <!-- <a href="https://gitcoin.co/grants/3414/dapp-learning-developer-group-1"><img alt="Gitcoin Grants" src="https://img.shields.io/badge/Gitcoin-Grants-yellow"></a> -->
+    <!-- <a href="https://github.com/Dapp-Learning-DAO/Dapp-Learning"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Dapp-Learning-DAO/Dapp-Learning"></a> -->
+  </p>
 </div>
 
+
+
+[中文](https://github.com/Dapp-Learning-DAO/Dapp-Learning/blob/main/README-CN.md) / English  
 ## Preface
 
 We are designed for developers to step into blockchain DAPP development, where they can learn **DeFi, NFT, DAO, CRYPTO** projects. We hope we could not only give **junior developers** a feasible and easy-to-use blockchain **DAPP** learning roadmap, but also present **advanced developers** with a platform for communication and cooperation.
 
 We are a decentralized learning group to study the mainstream DAPP projects together and share thoughts every week. The weekly sharing will be recorded and uploaded to  [Youtube](https://www.youtube.com/c/DappLearning/videos).
 
-We adhere to the concept of [open source university](https://docs.qq.com/doc/DQ3hWeVVXQ3JPbXFS) and follow DAO's governance. Currently, we are sponsored by [Ethereum foundation](https://esp.ethereum.foundation/en/), and accept grants in [gitcoin](https://gitcoin.co/grants/3414/dapp-learning-developer-group-1). All the funds will be awarded to whoever makes valuable contributions to us. Please follow us on Twitter [@Dapp_Learning](https://twitter.com/Dapp_Learning) or WeChat Official Account [Welcome to Dapp-Learning](https://mp.weixin.qq.com/s/79eRMtB_yz8G6H8_saCeLw) to keep track of our latest progress.
+We adhere to the concept of [open source university](https://docs.qq.com/doc/DQ3hWeVVXQ3JPbXFS) and follow DAO's governance. Currently, we are sponsored by [Ethereum foundation](https://esp.ethereum.foundation/en/), and accept grants in [gitcoin](https://gitcoin.co/grants/3414/dapp-learning-developer-group-1). All the funds will be awarded to whoever makes valuable contributions to us. Please follow us on Twitter [@Dapp_Learning](https://twitter.com/Dapp_Learning) or WeChat Official Account [Welcome to Dapp-Learning](https://mp.weixin.qq.com/s/xcH7b4jVIagoVby9Ci6-kA) to keep track of our latest progress.
 
 We need more builders to help make our community grow -- contributors are welcomed from all backgrounds! Feel free to send us pull requests to set up new tutorials or improve our current tutorial projects. Correcting spelling errors is also  helpful to us 🤗.
 
-Join our developer community by submitting PR or sharing at [dapp learning university](https://docs.qq.com/doc/DQ3hWeVVXQ3JPbXFS). Once you submit three PRs, you will be promoted to a pull request reviewer who could participate in our Dao's governance. Join our [Discord](https://discord.gg/cRYNYXqPeR) if you want to communicate  any technical issues  with us.
-For more **project management rules**, please see [how new members participate and project governance rules](https://github.com/Dapp-Learning-DAO/Dapp-Learning/blob/main/docs/dao.md). Welcome to join us if you share the same value. 
+Join our developer community by submitting PR or sharing at [dapp learning university](https://docs.qq.com/doc/DQ3hWeVVXQ3JPbXFS). Once you submit three PRs, you will be promoted to be a pull request reviewer who could participate in our Dao's governance. Join our [Discord](https://discord.gg/cRYNYXqPeR) if you want to communicate  any technical issues  with us.
+For more **project management rules**, please see [how new members participate and project governance rules](https://github.com/Dapp-Learning-DAO/Dapp-Learning/blob/main/docs/dao-en.md). Welcome to join us if you share the same value. 
 
 <details>
 <summary>Official links</summary>
@@ -195,29 +205,29 @@ You can refer to our study group's learning roadmap, which is better with the vi
 
 - Trading: uniV1(task13) -> uniV2 -> uniV3 -> CurveV1 -> CurveV2
 - Lending: Aave -> Compound -> Liquity -> Euler
-- Derivatives: SNX -> YFI -> Perpetual
+- Derivatives: SNX -> YFI -> Perpetual -> Opyn
 
 01. [UniswapV2](defi/Uniswap-V2/readme.md) ✅
 02. [UniswapV3](defi/Uniswap-V3/readme.md) ✅
 03. [Curve](defi/Curve/README.md) ⌛
 04. [Compound](defi/Compound/readme.md) ✅
 05. [Aave](https://docs.aave.com/portal/)  ✅
-06. [Liquity](defi/Liquity/readme.md) ⌛
+06. [Liquity](defi/Liquity/readme.md) ✅
 07. [Euler](defi/Euler/readme.md) ⌛
 08. [SNX](https://github.com/Synthetixio) [👉 Pick up this Task](https://github.com/Dapp-Learning-DAO/Dapp-Learning/issues/new)
-09. [YFI](https://yearn.finance/) [👉 Pick up this Task](https://github.com/Dapp-Learning-DAO/Dapp-Learning/issues/new)
-10. [Perpetual Protocol](https://www.chainnews.com/articles/163436212237.htm) [👉 Pick up this Task](https://github.com/Dapp-Learning-DAO/Dapp-Learning/issues/new)
+09. [YFI](https://yearn.finance/) ⌛
+10. [Perpetual Protocol](https://www.chainnews.com/articles/163436212237.htm) ⌛
 11. [Sushi](https://docs.sushi.com/) ✅  
 12. [OPYN](https://v2.opyn.co/)⌛
 13. [Alchemix](https://github.com/alchemix-finance/alchemix-protocol) ✅
 14. [AMPL](https://roninchow.gitbook.io/ampleforth-cn/technology) [👉 Pick up this Task](https://github.com/Dapp-Learning-DAO/Dapp-Learning/issues/new)
-15. [RAI](https://www.youtube.com/watch?v=ADK91Zw4sJA&list=PL-GxJch-YeZerVVV8dY8qU2VkJfbnSfdN&index=3)
+15. [RAI](https://www.youtube.com/watch?v=ADK91Zw4sJA& list=PL-GxJch-YeZerVVV8dY8qU2VkJfbnSfdN&index=3)
 16. [DYDX](https://dydx.exchange/)[👉 Pick up this Task](https://github.com/Dapp-Learning-DAO/Dapp-Learning/issues/new)
 17. [INDEX](https://mp.weixin.qq.com/s/PXOY3G6AIbhzRUptjYoWIw)[👉 Pick up this Task](https://github.com/Dapp-Learning-DAO/Dapp-Learning/issues/new)
 18. [DODO Trading API](https://dodoex.github.io/docs/zh/docs/tradeApi) [👉 Pick up this Task](https://github.com/Dapp-Learning-DAO/Dapp-Learning/issues/new)
-19. [MakerDao](https://zhuanlan.zhihu.com/p/41889079)[👉 Pick up this task](https://github.com/Dapp-Learning-DAO/Dapp-Learning/issues/new)
+19. [MakerDao](https://zhuanlan.zhihu.com/p/41889079)⌛
 20. [0x-protocol](defi/0x-protocal/README.md) [👉 Pick up this Task](https://github.com/Dapp-Learning-DAO/Dapp-Learning/issues/new)
-21. [Bancor](https://bancor.network/) [👉 Pick up this Task](https://github.com/Dapp-Learning-DAO/Dapp-Learning/issues/new)
+21. [Bancor](https://bancor.network/)⌛
 22. [Set](https://www.tokensets.com/)
 23. [Dhedge](https://docs.dhedge.org/dhedge-protocol/managing-on-v2)
 24. [Element](https://app.element.fi/fixedrates)
@@ -261,7 +271,7 @@ Item list:
 - [Securify](https://github.com/eth-sri/securify2)
 2. CTF Training camp
  - [Ethernaut](https://ethernaut.openzeppelin.com/)
- - [Damn-Vulnerable-Defi](https://github.com/OpenZeppelin/damn-vulnerable-defi/blob/master/contracts/DamnValuableToken.sol)
+ - [Damn-Vulnerable-Defi](https://github.com/OpenZeppelin/damn-vulnerable-defi/blob/master/contracts/DamnValuableToken.sol) | [Solution](security/Damn-Vulnerable-DeFi-wp.md)
  - [Paradigm-ctf](https://github.com/paradigm-operations/paradigm-ctf-2021)
  - [Smart Contract CTF](https://blockchain-ctf.securityinnovation.com)
 3. Safe development practices
@@ -360,14 +370,17 @@ Shout out to the following organizations for their unconditional donations to us
   </a>
   &nbsp;&nbsp;
   &nbsp;&nbsp;
+  &nbsp;&nbsp;
   <a href="https://www.nervos.org/">
     <img align="top" src="./docs/imgs/sponsor-partners/nervos-logo.png" />
   </a>
   &nbsp;&nbsp;
   &nbsp;&nbsp;
+  &nbsp;&nbsp;
   <a href="https://web3q.io/home.w3q/">
     <img align="top" src="./docs/imgs/sponsor-partners/Web3Q-logo.png" />
   </a>
+  &nbsp;&nbsp;
   &nbsp;&nbsp;
   &nbsp;&nbsp;
   <a href="https://t.me/planckeropencommunity/">
@@ -377,6 +390,16 @@ Shout out to the following organizations for their unconditional donations to us
 <div align="left">
   <a href="https://degate.com/">
     <img align="top" src="./docs/imgs/sponsor-partners/Degate-logo.png" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://loopring.org/">
+    <img align="top" src="./docs/imgs/sponsor-partners/Loopring-logo.png" />
+  </a>
+  &nbsp;&nbsp;
+  &nbsp;&nbsp;
+  &nbsp;&nbsp;
+  <a href="#">
+    <img align="top" src="./docs/imgs/sponsor-partners/DRK-lab-logo.png" />
   </a>
   &nbsp;&nbsp;
   &nbsp;&nbsp;
@@ -394,3 +417,5 @@ Shout out to the following organizations for their unconditional donations to us
   </a>
 </div>
 
+<br>
+Disclaimer: DappLearning is a non-profit learning organization and not involved in any commercial events or endorsements for commercial projects.

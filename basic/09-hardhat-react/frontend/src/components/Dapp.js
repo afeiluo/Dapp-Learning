@@ -276,6 +276,7 @@ export class Dapp extends React.Component {
     const balance = await this._simpleToken.balanceOf(
       this.state.selectedAddress
     )
+    console.log("balance:" + balance)
     this.setState({ balance })
   }
 

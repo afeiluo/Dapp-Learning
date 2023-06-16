@@ -3,13 +3,13 @@
 Through this basic task, you can learn the processes of compiling and deploying a smart contract, as well as learn how to use the basic APIs of `web3js`.
 
 # Preparation
-- You need to create a project on [Infura](https://infura.io), and get the `PROJECT ID`, change your `ENDPOINTS` to `KOVAN`;
+- You need to create a project on [Infura](https://infura.io), and get the `PROJECT ID`, change your `ENDPOINTS` to `Goerli`;
 
 - Create an account on `MetaMask`, which is a browser extension;
     1. Get a wallet `address`, and the private key;
     2. Go `Settings` - `advanced` and open `Show test networks`;
-        - Select `Kovan`, and record this address
-    3. Top up your account through [faucets](https://faucets.chain.link/kovan) or others web services;
+        - Select `Goerli`, and record this address
+    3. Top up your account through [faucets](https://faucets.chain.link) or others web services;
     4. Wait for minutes, and see the balance on `MetaMask`
 
 - Create a `.env` file, and add the following lines:
@@ -92,15 +92,15 @@ const abi = contractFile.abi;
 ## 4. Create the `web3` instance
 `web3` is the main API of the `web3js` library. It is used to interact with the blockchain.
 ```js
-// Create web3 with kovan provider，you can change kovan to other testnet
+// Create web3 with goerli provider，you can change goerli to other testnet
 const web3 = new Web3(
-  "https://kovan.infura.io/v3/" + process.env.INFURA_ID
+  "https://goerli.infura.io/v3/" + process.env.INFURA_ID
 );
 ```
 | Note: The `INFURA_ID` is the `PROJECT ID` of the `Infura` project you created in **Preparation** part.
 
 ## 5. Get the `account` address
-On blockchain, each user has a `address`, which is unique for others, and you can get the `address` by the private key. In this task, you can use to `we3.eth.accounts.privateKeyToAccount` API to get your `account` address by passing the private key as a parameter.
+On blockchain, each user has a `address`, which is unique for others, and you can get the `address` by the private key. In this task, you can use to `web3.eth.accounts.privateKeyToAccount` API to get your `account` address by passing the private key as a parameter.
 ```js
 // Create account from privatekey
 const account = web3.eth.accounts.privateKeyToAccount(privatekey);
